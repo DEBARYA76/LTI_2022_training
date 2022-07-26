@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd"><!-- <bean id="car" class="com.lti.entity.Car" /> -->
+
+<context:component-scan base-package="com.lti"></context:component-scan>
+	<!-- <bean id="car" class="com.lti.entity.Car" > <property name="carModel" 
+		value="Hatchback. Maruti Suzuki Swift"/> <property name="color" value="Siler"/> 
+		<property name="price" value="90000"/> </bean> -->
+
+	<!-- <bean id="car" class="com.lti.entity.Car"> <constructor-arg name="carModel" 
+		type="String" value="Hatchback. Maruti Suzuki Swift" /> <constructor-arg 
+		name="color" type="String" value="Siler" /> <constructor-arg name="price" 
+		type="Double" value="90000" /> <constructor-arg name="engineType" type="String" 
+		value="Petrol" /> <constructor-arg name="tyre" ref="tr" /> <property name="tyre" 
+		ref="tr"/> </bean> <bean id="tr" class="com.lti.entity.Tyre"> <property name="make" 
+		value="MRF" /> <property name="size" value="Big" /> <property name="type" 
+		value="Tubeless" /> </bean> -->
+
+</beans>       
