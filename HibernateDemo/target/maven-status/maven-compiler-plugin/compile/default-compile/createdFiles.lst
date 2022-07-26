@@ -1,0 +1,9 @@
+com\lti\dao\GeneralInsuranceDaoImpl.class
+com\lti\dao\PersonDaoImpl.class
+com\lti\main\Main.class
+com\lti\entity\Passport.class
+com\lti\entity\Insurance.class
+com\lti\dao\PersonDao.class
+com\lti\dao\GeneralInsuranceDao.class
+com\lti\entity\Person.class
+com\lti\entity\Vehicle.class
